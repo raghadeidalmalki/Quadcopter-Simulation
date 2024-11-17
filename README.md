@@ -1,7 +1,7 @@
 # Quadcopter Simulation
 
 
-This project foocuses on simulating a quadcopter to forecast its behavior. The two subsystems of the model are the airframe and electromechanical subsystems. The airframe encompasses the mechanical structure, while the electromechanical subsystem deals with electrical components and their interactions with the subsystem’s translational and rotational parts. For readability, the system was represented into four main blocks: 
+This project focuses on simulating a quadcopter to forecast its behavior. The two subsystems of the model are the airframe and electromechanical subsystems. The airframe encompasses the mechanical structure, while the electromechanical subsystem deals with electrical components and their interactions with the subsystem’s translational and rotational parts. For readability, the system was represented into four main blocks: 
 - Torque Command (step block): Sends a command signal to the quadcopter’s motor - can be adjusted interactively so we can observe the immediate impact on the system response.
 - Electromechanics Subsystem: Contains the quadcopter’s battery (Panasonic NCA593446), motors (brushless), and propellers. 
 - Airframe Subsystem: Contains the quadcopter’s airframe design. 
